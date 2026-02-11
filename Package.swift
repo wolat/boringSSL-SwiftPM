@@ -7,14 +7,14 @@ let package = Package(
   name: "BoringSSL-GRPC",
   products: [
     .library(
-      name: "openssl_grpc",
-      targets: ["openssl_grpc"]
+      name: "openssl_grpc_nearby",
+      targets: ["openssl_grpc_nearby"]
     )
   ],
 
   targets: [
     .target(
-      name: "openssl_grpc",
+      name: "openssl_grpc_nearby",
       path: ".",
       exclude: [
         ".git/",
