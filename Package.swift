@@ -3448,7 +3448,7 @@ let package = Package(
     .testTarget(
       name: "build-test",
       dependencies: [
-        "openssl_grpc",
+        "openssl_grpc_nearby",
       ],
       path: "SwiftPMTests/build-test"
     ),
